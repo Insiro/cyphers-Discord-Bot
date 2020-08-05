@@ -9,7 +9,7 @@ export const TitleBar: React.FC = () => {
                 display: flex;
                 ${styles.Box};
 
-                padding: 1.5rem;
+                padding: ${styles.SPACE_R};
                 align-items: center;
                 justify-content: space-between;
             `}
@@ -19,7 +19,7 @@ export const TitleBar: React.FC = () => {
                     display: flex;
                     color: rgba(127, 156, 245, 1);
                     font-weight: 700;
-                    font-size: 1.5rem;
+                    font-size: ${styles.SPACE_R};
                     ${styles.no_underline};
                 `}
                 href="#"
