@@ -1,7 +1,7 @@
 import { Message } from 'discord.js';
 import { setRole } from './role';
 import { setClan } from './clan';
-import { setSubscribeChannel} from './news';
+import { setSubscribeChannel } from './news';
 import { setPrefix } from './prefix';
 import { BotServer } from '../../entity/BotServer';
 import { setChannel } from './channel';

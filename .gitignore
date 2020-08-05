@@ -104,10 +104,8 @@ dist
 .tern-port
 
 .py
-.vscode/
 
 .idea/
-.vscode/
 build/
 tmp/
 temp/

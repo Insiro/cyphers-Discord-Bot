@@ -16,8 +16,8 @@ async function main(): Promise<void> {
             status: 'online',
             activity: {
                 type: 'LISTENING',
-                name: prefix + 'help',
-            },
+                name: prefix + 'help'
+            }
         });
     });
     client.on('message', (msg): void => void sender(msg));
@@ -40,4 +40,4 @@ async function main(): Promise<void> {
     });
     console.log('start CyphersDiscord Bot!!');
 }
-main().catch((error) => console.log(error));
+main().catch(error => console.log(error));

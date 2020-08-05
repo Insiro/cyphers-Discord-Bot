@@ -27,7 +27,7 @@ const getClanSite = async (
         : new MessageEmbed()
             .setTitle('클랜 홈페이지')
             .setURL(clan)
-            .setDescription(isNaver ? 'naver publish' : 'nexon publish')
+            .setDescription(isNaver ? 'naver publish' : 'nexon publish');
 };
 
 const playingMember = async (guidID: string): Promise<string> => {
