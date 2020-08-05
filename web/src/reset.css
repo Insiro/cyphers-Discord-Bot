@@ -1,0 +1,46 @@
+/** Normailze */
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap");
+@import-normalize;
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #1a202c;
+    color: rgba(26, 32, 44, 1);
+}
+
+body,
+button,
+input {
+    font-family: "Noto Serif KR", serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+#root {
+    min-width: 100%;
+    min-height: 100vh;
+}
